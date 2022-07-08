@@ -9,25 +9,25 @@
             <div class="col">
                 <div class="form-outline">
                     <label class="form-label" for="firstName">First name</label>
-                    <input type="text" id="firstName" class="form-control" name="first_name"/>
+                    <input type="text" id="firstName" class="form-control" name="first_name" />
                 </div>
             </div>
             <div class="col">
                 <div class="form-outline">
                     <label class="form-label" for="lastName">Last name</label>
-                    <input type="text" id="lastName" class="form-control" name="last_name"/>
+                    <input type="text" id="lastName" class="form-control" name="last_name" />
                 </div>
             </div>
         </div>
 
         <div class="form-outline mb-4">
             <label class="form-label" for="emailInput">Email address</label>
-            <input type="email" id="emailInput" class="form-control" name="email"/>
+            <input type="email" id="emailInput" class="form-control" name="email" />
         </div>
 
         <div class="form-outline mb-4">
             <label class="form-label" for="passwordInput">Password</label>
-            <input type="password" id="passwordInput" class="form-control" name="password"/>
+            <input type="password" id="passwordInput" class="form-control" name="user_password" />
         </div>
 
         <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
