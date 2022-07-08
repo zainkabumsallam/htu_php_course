@@ -190,10 +190,8 @@ function login_auth($email, $password)
     foreach ($customers as $customer) {
         unset($_SESSION['errors']);
         if ($customer->email == $email) {
-            foreach ($customers as $customer) {
-                if ($customer->password == $password) {
-                    return true;
-                }
+            if ($customer->password == $password) {
+                return true;
             }
         }
     }
